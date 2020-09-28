@@ -24,6 +24,8 @@ public class DriverFactory {
         if(remoteExecution) {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setBrowserName(browser.name());
+            capabilities.setCapability(capabilityName: "enableVNC", value: true);
+            capabilities.setCapability(capabilityName: "enableVideo", value: true);
             RemoteWebDriver remoteWebDriver = new RemoteWebDriver(URI.create(gridUrl).toURL(),capabilities);
             return remoteWebDriver;
 

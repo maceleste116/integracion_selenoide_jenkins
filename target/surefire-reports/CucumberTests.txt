@@ -1,0 +1,1075 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTests
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 16.911 s <<< FAILURE! - in CucumberTests
+runScenario(CucumberTests)  Time elapsed: 7.015 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: 
+Error creating bean with name 'crearAtributoPage' defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+
+runScenario(CucumberTests)  Time elapsed: 0.882 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: 
+Error creating bean with name 'crearAtributoPage' defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+
+runScenario(CucumberTests)  Time elapsed: 0.837 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: 
+Error creating bean with name 'crearAtributoPage' defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+
+runScenario(CucumberTests)  Time elapsed: 0.802 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: 
+Error creating bean with name 'crearAtributoPage' defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+
+runScenario(CucumberTests)  Time elapsed: 0.761 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: 
+Error creating bean with name 'crearAtributoPage' defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+
+runScenario(CucumberTests)  Time elapsed: 0.752 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: 
+Error creating bean with name 'crearAtributoPage' defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+
+runScenario(CucumberTests)  Time elapsed: 0.733 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: 
+Error creating bean with name 'crearAtributoPage' defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+
+runScenario(CucumberTests)  Time elapsed: 0.712 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: 
+Error creating bean with name 'crearAtributoPage' defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+
+runScenario(CucumberTests)  Time elapsed: 0.715 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: 
+Error creating bean with name 'crearAtributoPage' defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method 'webDriver' threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MDZN0094', ip: '10.251.253.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+

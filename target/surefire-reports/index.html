@@ -1,0 +1,2207 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 9 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="CucumberTests" hash-for-method="runScenario(&quot;Editar atributo existente con datos requeridos&quot;, &quot;Administrar Atributo&quot;)">runScenario("Editar atributo existente con datos requeridos", "Administrar Atributo")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="CucumberTests" hash-for-method="runScenario(&quot;Eliminar atributo existente aceptar asociada&quot;, &quot;Administrar Atributo&quot;)">runScenario("Eliminar atributo existente aceptar asociada", "Administrar Atributo")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="CucumberTests" hash-for-method="runScenario(&quot;Listar descendente atributo existente&quot;, &quot;Administrar Atributo&quot;)">runScenario("Listar descendente atributo existente", "Administrar Atributo")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="CucumberTests" hash-for-method="runScenario(&quot;Crear atributo sin datos requeridos&quot;, &quot;Administrar Atributo&quot;)">runScenario("Crear atributo sin datos requeridos", "Administrar Atributo")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="CucumberTests" hash-for-method="runScenario(&quot;Crear atributo con codigo existente&quot;, &quot;Administrar Atributo&quot;)">runScenario("Crear atributo con codigo existente", "Administrar Atributo")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="CucumberTests" hash-for-method="runScenario(&quot;Editar atributo existente sin datos requeridos&quot;, &quot;Administrar Atributo&quot;)">runScenario("Editar atributo existente sin datos requeridos", "Administrar Atributo")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="CucumberTests" hash-for-method="runScenario(&quot;Listar ascendente atributo existente&quot;, &quot;Administrar Atributo&quot;)">runScenario("Listar ascendente atributo existente", "Administrar Atributo")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="CucumberTests" hash-for-method="runScenario(&quot;Crear atributo con datos requeridos&quot;, &quot;Administrar Atributo&quot;)">runScenario("Crear atributo con datos requeridos", "Administrar Atributo")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="CucumberTests" hash-for-method="runScenario(&quot;Eliminar atributo existente aceptar&quot;, &quot;Administrar Atributo&quot;)">runScenario("Eliminar atributo existente aceptar", "Administrar Atributo")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">CucumberTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Editar atributo existente con datos requeridos&quot;, &quot;Administrar Atributo&quot;)">
+                  </a> <!-- runScenario("Editar atributo existente con datos requeridos", "Administrar Atributo") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Editar atributo existente con datos requeridos", "Administrar Atributo")</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at io.cucumber.spring.TestContextAdaptor.createTestContextManagerAdaptor(TestContextAdaptor.java:32)
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:167)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:165)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:62)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:124)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &apos;crearAtributoPage&apos; defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 40 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 58 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 72 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:136)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
+	at qa.util.DriverFactory.get(DriverFactory.java:27)
+	at qa.conf.DriverConfig.webDriver(DriverConfig.java:32)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.CGLIB$webDriver$1(&lt;generated&gt;)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013$$FastClassBySpringCGLIB$$b263f552.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.webDriver(&lt;generated&gt;)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 73 more
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Eliminar atributo existente aceptar asociada&quot;, &quot;Administrar Atributo&quot;)">
+                  </a> <!-- runScenario("Eliminar atributo existente aceptar asociada", "Administrar Atributo") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Eliminar atributo existente aceptar asociada", "Administrar Atributo")</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at io.cucumber.spring.TestContextAdaptor.createTestContextManagerAdaptor(TestContextAdaptor.java:32)
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:167)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:165)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:62)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:124)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &apos;crearAtributoPage&apos; defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 40 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 58 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 72 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:136)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
+	at qa.util.DriverFactory.get(DriverFactory.java:27)
+	at qa.conf.DriverConfig.webDriver(DriverConfig.java:32)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.CGLIB$webDriver$1(&lt;generated&gt;)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013$$FastClassBySpringCGLIB$$b263f552.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.webDriver(&lt;generated&gt;)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 73 more
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Listar descendente atributo existente&quot;, &quot;Administrar Atributo&quot;)">
+                  </a> <!-- runScenario("Listar descendente atributo existente", "Administrar Atributo") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Listar descendente atributo existente", "Administrar Atributo")</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at io.cucumber.spring.TestContextAdaptor.createTestContextManagerAdaptor(TestContextAdaptor.java:32)
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:167)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:165)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:62)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:124)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &apos;crearAtributoPage&apos; defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 40 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 58 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 72 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:136)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
+	at qa.util.DriverFactory.get(DriverFactory.java:27)
+	at qa.conf.DriverConfig.webDriver(DriverConfig.java:32)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.CGLIB$webDriver$1(&lt;generated&gt;)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013$$FastClassBySpringCGLIB$$b263f552.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.webDriver(&lt;generated&gt;)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 73 more
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Crear atributo sin datos requeridos&quot;, &quot;Administrar Atributo&quot;)">
+                  </a> <!-- runScenario("Crear atributo sin datos requeridos", "Administrar Atributo") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Crear atributo sin datos requeridos", "Administrar Atributo")</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at io.cucumber.spring.TestContextAdaptor.createTestContextManagerAdaptor(TestContextAdaptor.java:32)
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:167)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:165)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:62)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:124)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &apos;crearAtributoPage&apos; defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 40 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 58 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 72 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:136)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
+	at qa.util.DriverFactory.get(DriverFactory.java:27)
+	at qa.conf.DriverConfig.webDriver(DriverConfig.java:32)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.CGLIB$webDriver$1(&lt;generated&gt;)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013$$FastClassBySpringCGLIB$$b263f552.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.webDriver(&lt;generated&gt;)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 73 more
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Crear atributo con codigo existente&quot;, &quot;Administrar Atributo&quot;)">
+                  </a> <!-- runScenario("Crear atributo con codigo existente", "Administrar Atributo") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Crear atributo con codigo existente", "Administrar Atributo")</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at io.cucumber.spring.TestContextAdaptor.createTestContextManagerAdaptor(TestContextAdaptor.java:32)
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:167)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:165)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:62)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:124)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &apos;crearAtributoPage&apos; defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 40 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 58 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 72 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:136)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
+	at qa.util.DriverFactory.get(DriverFactory.java:27)
+	at qa.conf.DriverConfig.webDriver(DriverConfig.java:32)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.CGLIB$webDriver$1(&lt;generated&gt;)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013$$FastClassBySpringCGLIB$$b263f552.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.webDriver(&lt;generated&gt;)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 73 more
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Editar atributo existente sin datos requeridos&quot;, &quot;Administrar Atributo&quot;)">
+                  </a> <!-- runScenario("Editar atributo existente sin datos requeridos", "Administrar Atributo") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Editar atributo existente sin datos requeridos", "Administrar Atributo")</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at io.cucumber.spring.TestContextAdaptor.createTestContextManagerAdaptor(TestContextAdaptor.java:32)
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:167)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:165)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:62)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:124)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &apos;crearAtributoPage&apos; defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 40 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 58 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 72 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:136)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
+	at qa.util.DriverFactory.get(DriverFactory.java:27)
+	at qa.conf.DriverConfig.webDriver(DriverConfig.java:32)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.CGLIB$webDriver$1(&lt;generated&gt;)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013$$FastClassBySpringCGLIB$$b263f552.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.webDriver(&lt;generated&gt;)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 73 more
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Listar ascendente atributo existente&quot;, &quot;Administrar Atributo&quot;)">
+                  </a> <!-- runScenario("Listar ascendente atributo existente", "Administrar Atributo") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Listar ascendente atributo existente", "Administrar Atributo")</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at io.cucumber.spring.TestContextAdaptor.createTestContextManagerAdaptor(TestContextAdaptor.java:32)
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:167)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:165)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:62)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:124)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &apos;crearAtributoPage&apos; defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 40 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 58 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 72 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:136)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
+	at qa.util.DriverFactory.get(DriverFactory.java:27)
+	at qa.conf.DriverConfig.webDriver(DriverConfig.java:32)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.CGLIB$webDriver$1(&lt;generated&gt;)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013$$FastClassBySpringCGLIB$$b263f552.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.webDriver(&lt;generated&gt;)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 73 more
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Crear atributo con datos requeridos&quot;, &quot;Administrar Atributo&quot;)">
+                  </a> <!-- runScenario("Crear atributo con datos requeridos", "Administrar Atributo") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Crear atributo con datos requeridos", "Administrar Atributo")</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at io.cucumber.spring.TestContextAdaptor.createTestContextManagerAdaptor(TestContextAdaptor.java:32)
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:167)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:165)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:62)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:124)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &apos;crearAtributoPage&apos; defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 40 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 58 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 72 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:136)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
+	at qa.util.DriverFactory.get(DriverFactory.java:27)
+	at qa.conf.DriverConfig.webDriver(DriverConfig.java:32)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.CGLIB$webDriver$1(&lt;generated&gt;)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013$$FastClassBySpringCGLIB$$b263f552.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.webDriver(&lt;generated&gt;)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 73 more
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Eliminar atributo existente aceptar&quot;, &quot;Administrar Atributo&quot;)">
+                  </a> <!-- runScenario("Eliminar atributo existente aceptar", "Administrar Atributo") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Eliminar atributo existente aceptar", "Administrar Atributo")</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at io.cucumber.spring.TestContextAdaptor.createTestContextManagerAdaptor(TestContextAdaptor.java:32)
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:167)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:165)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:62)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:124)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &apos;crearAtributoPage&apos; defined in file [C:\Users\berdinas\IdeaProjects\delta_regresion_v1\delta_atributos_v2\target\test-classes\qa\pageobjects\CrearAtributoPage.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 40 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in qa.conf.DriverConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1306)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 58 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.WebDriver]: Factory method &apos;webDriver&apos; threw exception; nested exception is org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 72 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
+System info: host: &apos;MDZN0094&apos;, ip: &apos;10.251.253.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00579563+2725219]
+	Ordinal0 [0x00478551+1672529]
+	Ordinal0 [0x00360359+525145]
+	Ordinal0 [0x002ECA64+51812]
+	Ordinal0 [0x0030CC37+183351]
+	Ordinal0 [0x0030CA3D+182845]
+	Ordinal0 [0x0030A94B+174411]
+	Ordinal0 [0x002F2528+75048]
+	Ordinal0 [0x002F35A0+79264]
+	Ordinal0 [0x002F3539+79161]
+	Ordinal0 [0x0048D607+1758727]
+	GetHandleVerifier [0x00696546+1050150]
+	GetHandleVerifier [0x00696291+1049457]
+	GetHandleVerifier [0x006A10D7+1094071]
+	GetHandleVerifier [0x00696B46+1051686]
+	Ordinal0 [0x00485B06+1727238]
+	Ordinal0 [0x0048EB7B+1764219]
+	Ordinal0 [0x0048ECE3+1764579]
+	Ordinal0 [0x004A4C05+1854469]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x777C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777C7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:136)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
+	at qa.util.DriverFactory.get(DriverFactory.java:27)
+	at qa.conf.DriverConfig.webDriver(DriverConfig.java:32)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.CGLIB$webDriver$1(&lt;generated&gt;)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013$$FastClassBySpringCGLIB$$b263f552.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at qa.conf.DriverConfig$$EnhancerBySpringCGLIB$$c6017013.webDriver(&lt;generated&gt;)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 73 more
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CucumberTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'CucumberTests')
+data.setCell(0, 3, 6992);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'CucumberTests')
+data.setCell(1, 3, 884);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'CucumberTests')
+data.setCell(2, 3, 833);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'CucumberTests')
+data.setCell(3, 3, 798);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'CucumberTests')
+data.setCell(4, 3, 757);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'CucumberTests')
+data.setCell(5, 3, 750);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'CucumberTests')
+data.setCell(6, 3, 730);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'CucumberTests')
+data.setCell(7, 3, 713);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'CucumberTests')
+data.setCell(8, 3, 710);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">CucumberTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Crear atributo con datos requeridos", "Administrar Atributo")</span>
+                <span class="method-start">670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Crear atributo sin datos requeridos", "Administrar Atributo")</span>
+                <span class="method-start">7685 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Crear atributo con codigo existente", "Administrar Atributo")</span>
+                <span class="method-start">8572 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Editar atributo existente con datos requeridos", "Administrar Atributo")</span>
+                <span class="method-start">9409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Editar atributo existente sin datos requeridos", "Administrar Atributo")</span>
+                <span class="method-start">10212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Eliminar atributo existente aceptar", "Administrar Atributo")</span>
+                <span class="method-start">10972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Eliminar atributo existente aceptar asociada", "Administrar Atributo")</span>
+                <span class="method-start">11726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Listar ascendente atributo existente", "Administrar Atributo")</span>
+                <span class="method-start">12459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Listar descendente atributo existente", "Administrar Atributo")</span>
+                <span class="method-start">13171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">13887 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

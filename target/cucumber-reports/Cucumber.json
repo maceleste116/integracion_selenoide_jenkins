@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Ir al menu Atributo",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1488000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "actuario quiere ir a Atributo",
+            "match": {
+              "location": "qa.stepdefinitions.DimensionStepDefs.actuario_quiere_ir_a_atributo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-28T23:13:23.290Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9163000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stepdefinitions.DimensionStepDefs.goHomePage()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Listar ascendente atributo existente",
+        "description": "",
+        "id": "administrar-atributo;listar-ascendente-atributo-existente",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "actuario quiere ordenar ascendente atributo existente",
+            "match": {
+              "location": "qa.stepdefinitions.DimensionStepDefs.actuario_quiere_ordenar_ascendente_atributo_existente()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "actuario tiene ordenado ascendente atributo existente",
+            "match": {
+              "location": "qa.stepdefinitions.DimensionStepDefs.actuario_tiene_ordenado_ascendente_atributo_existente()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Administrar Atributo",
+    "description": "",
+    "id": "administrar-atributo",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/qa/features/atributo.feature",
+    "tags": []
+  }
+]

@@ -1,8 +1,10 @@
 Feature: Administrar Atributo
 
+  @run
   Background: Ir al menu Atributo
     Given actuario quiere ir a Atributo
 
+  @run
   Scenario: Crear atributo con datos requeridos
     When actuario quiere crear atributo con datos requeridos
     Then actuario tiene atributo creado con datos requeridos

@@ -13,7 +13,8 @@ public class ValidarCrearAtributo {
     public boolean validarAtributoWithInfoDefault(){
         String mensaje = crearAtributoServices.getMensajeCrear();
         System.out.println("El mensaje obtenido es:" + mensaje);
-        boolean contieneMensaje = mensaje.contains("éxito");
+        System.out.println("El mensaje que debe contener es: Se creó atributo con éxito");
+        boolean contieneMensaje = mensaje.contains("Se creó atributo con éxito");
         System.out.println("Contiene el mensaje?" + contieneMensaje);
         crearAtributoServices.clickOnCerrarMensaje();
         return contieneMensaje;
